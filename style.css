@@ -47,6 +47,7 @@ h2 {
 
 }
 
+
 p {
 
 }
@@ -54,7 +55,13 @@ p {
 /* start main section flexbox */
 
 .header-img {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+}
 
+#mission {
+  background-color: black;
 }
 
 /* start tea section flexbox */
