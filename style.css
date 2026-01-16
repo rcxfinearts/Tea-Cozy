@@ -7,15 +7,18 @@ body {
 /* start menu section */
 
 .fixed-header {
-
+  height: 69px;
+  margin: 10px;
 }
 
 #logo {
-
+  height: 50px;
+  display: inline-block;
+  align-items: left;
 }
 
 nav {
-
+  text-align: right;
 }
 
 /* start main text elements */
