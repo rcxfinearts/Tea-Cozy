@@ -87,9 +87,7 @@ p {
 /* start tea section flexbox */
 
 .tea-flex {
-  position: relative;
   justify-content: center;
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
@@ -101,7 +99,7 @@ p {
   align-items: stretch;
   text-align: center;
   flex: 1;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .tea-img {
