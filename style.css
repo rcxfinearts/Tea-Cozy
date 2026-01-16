@@ -99,7 +99,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-between;
+  align-items: stretch;
   flex: 1;
   max-width: 25%;
 }
