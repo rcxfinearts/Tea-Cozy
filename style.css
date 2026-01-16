@@ -59,12 +59,24 @@ p {
   text-align: center;
 }
 
-.mission {
+.banner {
+
+}
+
+.centered {
   background-color: black;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.mission {
+  color: white;
+}
+
+.banner-text {
+  color: white;
 }
 
 /* start tea section flexbox */
