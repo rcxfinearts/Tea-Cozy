@@ -61,13 +61,11 @@ p {
 .header-img {
   position: relative;
   text-align: center;
-  height: 700px;
   max-width: 100%;
 }
 
 .banner {
-  object-fit: cover;
-  align-items: stretch;
+  object-fit: fill;
 }
 
 .centered {
