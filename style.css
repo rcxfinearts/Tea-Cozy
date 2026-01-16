@@ -87,12 +87,10 @@ p {
 /* start tea section flexbox */
 
 .tea-flex {
-  justify-content: center;
   display: flex;
+  max-width: 100%;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: center;      /* Center horizontally (main axis) */
-  
-  width: 1000px;
 }
 
 .tea-container {
