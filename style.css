@@ -73,6 +73,7 @@ p {
   background-color: black;
   position: relative;
   text-align: center;
+  z-index: 1;
 
 }
 
