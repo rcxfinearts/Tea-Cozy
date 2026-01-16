@@ -67,6 +67,9 @@ p {
 
 .banner {
   object-fit: fill;
+  position: relative;
+  text-align: center;
+  height: 100vh;
 }
 
 .centered {
