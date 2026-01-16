@@ -59,7 +59,7 @@ p {
 /* start main section flexbox */
 
 .header-img {
-  position: absolute;
+  position: fixed;
   text-align: center;
   width: 100vf;
 }
