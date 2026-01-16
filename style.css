@@ -17,6 +17,7 @@ body {
   top: 0;
   width: 100%;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between; /* Logo left, Menu right */
   align-items: center; /* Vertically center items */
   background-color: #000;
@@ -33,6 +34,7 @@ nav {
   flex-wrap: nowrap;
   list-style: none;
   padding-right: 10px;
+  text-decoration: underline;
 }
 
 /* start main text elements */
