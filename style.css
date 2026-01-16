@@ -61,20 +61,19 @@ p {
 .header-img {
   position: relative;
   text-align: center;
-  width: 1200px;
+  width: 100vf;
   height: 700px;
 }
 
 .banner {
   object-fit: cover;
+  height: 700px;
 }
 
 .centered {
   background-color: black;
   position: relative;
   text-align: center;
-  z-index: 1;
-
 }
 
 .mission {
