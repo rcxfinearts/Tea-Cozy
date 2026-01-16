@@ -20,6 +20,7 @@ body {
   justify-content: space-between; /* Logo left, Menu right */
   align-items: center; /* Vertically center items */
   z-index: 1000;
+  background-color: #000;
 }
 
 #logo {
