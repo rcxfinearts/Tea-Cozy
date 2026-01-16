@@ -59,20 +59,21 @@ p {
 /* start main section flexbox */
 
 .header-img {
-  position: fixed;
+  position: relative;
   text-align: center;
-  width: 100vf;
+  height: 700px;
 }
 
 .banner {
   object-fit: cover;
-  height: 700px;
 }
 
 .centered {
   background-color: black;
-  position: relative;
   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .mission {
