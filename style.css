@@ -72,7 +72,7 @@ p {
 .centered {
   background-color: black;
   text-align: center;
-  position: absolute;
+  position: relative;
   max-width: 100%;
 }
 
@@ -87,11 +87,13 @@ p {
 /* start tea section flexbox */
 
 .tea-flex {
-
+  position: static;
+  text-align: center;
+  max-width: 100%;
 }
 
 .tea-container {
-
+  object-fit: cover;
 }
 
 /* start locations section flexbox */
