@@ -63,6 +63,7 @@ p {
   position: relative;
   text-align: center;
   max-width: 100%;
+  object-fit: cover;
   
 }
 
@@ -71,13 +72,13 @@ p {
   position: relative;
   text-align: center;
   width: 100vh;
-  object-fit: cover;
+  
 }
 
 .centered {
   background-color: black;
   text-align: center;
-  position: relative;
+  position: absolute;
   max-width: 100%;
   z-index: 1;
 }
