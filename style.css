@@ -91,7 +91,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;      /* Center horizontally (main axis) */
-  align-items: center;
+  margin: auto;
   width: 1000px;
 }
 
