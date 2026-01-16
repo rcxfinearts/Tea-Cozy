@@ -94,17 +94,17 @@ p {
 
 .tea-container {
   display: flex;
-  flex-direction: row;
-  align-items: stretch;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   flex: 1;
-  max-width: 600px;
+  max-width: 250px;
 }
 
 .tea-img {
   display: block;
-  height: auto;
-  width: auto;
+  height: 100;
+  width: 100%;
   margin-bottom: 5px;
   object-fit: contain;
 }
