@@ -12,8 +12,7 @@ body {
 .fixed-header {
   height: 69px;
   margin: 10px;
-  position: -webkit-sticky; /* For Safari */
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   display: flex;
