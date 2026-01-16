@@ -87,6 +87,7 @@ p {
 /* start tea section flexbox */
 
 .tea-flex {
+  position: relative;
   display: flex;
   max-width: 100%;
   justify-content: center;
