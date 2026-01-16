@@ -10,7 +10,6 @@ body {
 /* start menu section */
 
 .fixed-header {
-  position: relative;
   height: 69px;
   padding-left: 10px;
   padding-right: 10px;
@@ -22,6 +21,7 @@ body {
   justify-content: space-between; /* Logo left, Menu right */
   align-items: center; /* Vertically center items */
   background-color: #000;
+  z-index: 1;
 }
 
 #logo {
