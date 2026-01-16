@@ -26,6 +26,8 @@ body {
 #logo {
   height: 50px;
   order: 1;
+  margin-left: 10px;
+  background-color: black;
 }
 
 nav {
@@ -35,6 +37,8 @@ nav {
   list-style: none;
   padding-right: 10px;
   text-decoration: underline;
+  margin-right: 10px;
+  background-color: black;
 }
 
 /* start main text elements */
@@ -57,15 +61,18 @@ p {
 .header-img {
   position: relative;
   text-align: center;
+  width: 100%;
 }
 
 .banner {
-
+  object-fit: cover;
 }
 
 .centered {
   background-color: black;
-  position: absolute;
+  position: relative;
+  text-align: center;
+
 }
 
 .mission {
