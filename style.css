@@ -9,6 +9,7 @@ body {
 .fixed-header {
   height: 69px;
   margin: 10px;
+  position: fixed;
 }
 
 #logo {
