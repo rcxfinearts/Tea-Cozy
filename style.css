@@ -100,7 +100,7 @@ p {
   align-items: center;
   text-align: center;
   flex: 1;
-  max-width: 600px;
+  max-width: 25%;
 }
 
 .tea-img {
