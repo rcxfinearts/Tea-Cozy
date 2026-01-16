@@ -107,7 +107,7 @@ p {
   display: block;
   margin-bottom: 10px;
   object-fit: contain;
-  width: 100%;
+  width: fit-content;
 }
 
 /* start locations section flexbox */
