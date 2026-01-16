@@ -105,9 +105,10 @@ p {
 
 .tea-img {
   display: block;
+  height: auto;
+  width: 100%;
   margin-bottom: 10px;
   object-fit: contain;
-  width: fit-content;
 }
 
 /* start locations section flexbox */
