@@ -55,23 +55,20 @@ p {
 /* start main section flexbox */
 
 .header-img {
-  display: flex;
-  flex-wrap: nowrap;
-  max-width: 100%;
-  justify-content: center;
-  vertical-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .banner{
-  display: block;
-  height: auto;
-  width: 100%;
-  margin-bottom: 5px;
-  object-fit: contain;
+
 }
 
 #mission {
   background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* start tea section flexbox */
