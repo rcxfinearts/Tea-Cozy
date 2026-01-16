@@ -12,17 +12,26 @@ body {
 .fixed-header {
   height: 69px;
   margin: 10px;
-  position: fixed;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Logo left, Menu right */
+  align-items: center; /* Vertically center items */
+  padding: 10px 20px;
+  z-index: 1000;
 }
 
 #logo {
   height: 50px;
-  display: inline-block;
-  align-items: left;
+  order: 1;
 }
 
 nav {
-  text-align: right;
+  order: 2;
+  display: flex;
+  list-style: none
 }
 
 /* start main text elements */
