@@ -59,7 +59,7 @@ p {
 /* start main section flexbox */
 
 .header-img {
-  position: static;
+  position: relative;
   text-align: center;
   height: 700px;
   max-width: 100%;
@@ -67,6 +67,7 @@ p {
 
 .banner {
   object-fit: cover;
+  align-items: stretch;
 }
 
 .centered {
@@ -87,13 +88,27 @@ p {
 /* start tea section flexbox */
 
 .tea-flex {
-  position: static;
-  text-align: center;
+  display: flex;
   max-width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .tea-container {
-  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  flex: 1;
+  max-width: 600px;
+}
+
+.tea-img {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin-bottom: 5px;
+  object-fit: contain;
 }
 
 /* start locations section flexbox */
