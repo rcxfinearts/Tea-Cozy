@@ -59,10 +59,9 @@ p {
 /* start main section flexbox */
 
 .header-img {
-  position: relative;
+  position: absolute;
   text-align: center;
   width: 100vf;
-  height: 700px;
 }
 
 .banner {
