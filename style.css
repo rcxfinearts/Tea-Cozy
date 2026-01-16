@@ -67,7 +67,7 @@ p {
 }
 
 .banner {
-  position: absolute;
+  display: block;
   text-align: center;
   width: 100vw;
   height: 100vh;
