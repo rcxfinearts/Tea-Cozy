@@ -90,13 +90,15 @@ p {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;      /* Center horizontally (main axis) */
+  align-items: center;
   width: 1000px;
 }
 
 .tea-container {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   text-align: center;
   flex: 1;
   max-width: 100%;
