@@ -22,6 +22,7 @@ body {
   justify-content: space-between; /* Logo left, Menu right */
   align-items: center; /* Vertically center items */
   background-color: #000;
+  height: 100vh;
 }
 
 #logo {
