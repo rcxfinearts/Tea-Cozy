@@ -11,14 +11,14 @@ body {
 
 .fixed-header {
   height: 69px;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between; /* Logo left, Menu right */
   align-items: center; /* Vertically center items */
-  padding: 10px 20px;
   z-index: 1000;
 }
 
