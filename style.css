@@ -146,7 +146,7 @@ p {
     position: relative; /* Needed for positioning the grid row over it */
     place-items: center;
     column-gap: 40px;
-    background-color: aqua;
+    
 }
 
 .grid-rows {
@@ -159,6 +159,7 @@ p {
     height: 300px;
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
     z-index: 2;
+    background-color: yellow;
     
 }
 
@@ -181,6 +182,7 @@ p {
   padding: 5px;
   text-align: center;
   aspect-ratio: 1 / 1;
+  background-color: aqua;
   color: white;
   z-index: 3;
 }
