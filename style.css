@@ -159,7 +159,7 @@ p {
 
 .flex-locations .full-width-image {
   width: 100%;
-  height: 500px;
+  height: 100%;
   object-fit: cover;
   min-width: 0;
   
