@@ -145,7 +145,7 @@ p {
     width: 100vw; /* Ensures full width */
     position: relative; /* Needed for positioning the grid row over it */
     place-items: center;
-    grid-column-gap: 40px;
+    column-gap: 40px;
 }
 
 .grid-rows {
