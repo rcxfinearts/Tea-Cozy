@@ -134,16 +134,16 @@ p {
 /* start locations section flexbox */
 
 .flex-locations {
-    background-image: url('img-locations-background.jpg');
+    background-image: src('img-locations-background.jpg');
     background-size: cover; /* Ensures the image covers the full container while maintaining aspect ratio */
     background-position: center; /* Centers the image */
-    height: 50vh; /* Adjust height as needed, e.g., 50% of viewport height */
+    height: 500px; /* Adjust height as needed, e.g., 50% of viewport height */
     width: 100%; /* Ensures full width */
     position: relative; /* Needed for positioning the grid row over it */
 }
 
 .grid-rows {
-  display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr); /* Example: 3 equal-width columns */
     gap: 1rem; /* Space between grid items */
     position: absolute; /* Position the grid over the image container */
