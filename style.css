@@ -155,6 +155,7 @@ p {
     width: 100%; /* Ensures the row spans the full width of the image container */
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
     z-index: 2;
+    background-color: #000;
 }
 
 .flex-locations .full-width-image {
