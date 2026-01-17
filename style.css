@@ -149,7 +149,7 @@ p {
     
 }
 
-.grid-rows {
+.grid- > div {
     display: grid;
     justify-content: space-between;
     align-items: center;
@@ -157,6 +157,7 @@ p {
     position: absolute; /* Position the grid over the image container */
     width: 100%; /* Ensures the row spans the full width of the image container */
     height: 300px;
+    background-color: aqua;
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
     z-index: 2;
     
@@ -171,20 +172,16 @@ p {
   
 }
 
-.location-items {
-  flex: 1;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 300px;
-  height: 300px;
-  gap: 10px;
-  padding: 5px;
-  text-align: center;
-  aspect-ratio: 1 / 1;
-  background-color: aqua;
-  color: white;
-  z-index: 3;
+.location-items1 {
+  background-color: #000;
+}
+
+.location-items2 {
+  background-color: #000;
+}
+
+.location-items3 {
+  background-color: #000;
 }
 
 /* start footer section flexbox */
