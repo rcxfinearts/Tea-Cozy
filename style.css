@@ -140,6 +140,7 @@ p {
     height: 500px; /* Adjust height as needed, e.g., 50% of viewport height */
     width: 100%; /* Ensures full width */
     position: relative; /* Needed for positioning the grid row over it */
+    place-items: center;
 }
 
 .grid-rows {
@@ -164,7 +165,6 @@ p {
 }
 
 .location-items {
-  text-align: center;
   flex: 1;
   max-width: 100%;
   margin-left: auto;
