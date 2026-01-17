@@ -149,7 +149,7 @@ p {
     
 }
 
-.grid- > div {
+.grid-rows > div {
     display: grid;
     justify-content: space-between;
     align-items: center;
