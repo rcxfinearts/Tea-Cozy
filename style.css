@@ -80,7 +80,7 @@ p {
 .centered {
   background-color: black;
   position: absolute;
-  max-width: 100vw; /* Precise centering */
+  width: 100%; /* Precise centering */
   color: white; /* Make text readable */
   text-align: center;
   padding: 10px;
