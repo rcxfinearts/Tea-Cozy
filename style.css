@@ -145,18 +145,16 @@ p {
 .grid-rows {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Example: 3 equal-width columns */
-    gap: 1rem; /* Space between grid items */
+    gap: 10px; /* Space between grid items */
     position: absolute; /* Position the grid over the image container */
-    bottom: 0; /* Align to the bottom (adjust as needed) */
     width: 100%; /* Ensures the row spans the full width of the image container */
-    padding: 1rem; /* Add some padding */
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
     background-color: black; /* Optional: semi-transparent background for readability */
     color: white; /* Optional: text color */
 }
 
 .location-items {
-  padding: 1rem;
+  padding: 5px;
   text-align: center
 }
 
