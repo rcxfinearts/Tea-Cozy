@@ -152,16 +152,19 @@ p {
 }
 
 .locations-item {
+  background-color: black;
   display: flex;
   position: absolute;
   flex-direction: column;
   align-items: center;
   text-align: center;
   flex: 1;
-  max-width: 100%;
+  width: 300px;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
   gap: 10px;
+  z-index: 1;
 }
 
 /* start footer section flexbox */
