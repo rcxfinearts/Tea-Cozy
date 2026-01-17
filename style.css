@@ -158,7 +158,7 @@ p {
     width: 100%; /* Ensures the row spans the full width of the image container */
     height: 300px;
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
-    z-index: 2;
+    z-index: 3;
     background-color: yellow;
     
 }
@@ -184,7 +184,7 @@ p {
   aspect-ratio: 1 / 1;
   background-color: aqua;
   color: white;
-  z-index: 3;
+  z-index: 2;
 }
 
 /* start footer section flexbox */
