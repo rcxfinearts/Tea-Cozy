@@ -163,7 +163,8 @@ p {
 
 .location-items {
   padding: 5px;
-  text-align: center
+  text-align: center;
+  aspect-ratio: 1 / 1;
 }
 
 /* start footer section flexbox */
