@@ -144,7 +144,7 @@ p {
 
 .grid-rows {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Example: 3 equal-width columns */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Example: 3 equal-width columns */
     gap: 10px; /* Space between grid items */
     position: absolute; /* Position the grid over the image container */
     width: 100%; /* Ensures the row spans the full width of the image container */
