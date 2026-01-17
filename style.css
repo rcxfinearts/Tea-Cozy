@@ -158,7 +158,6 @@ p {
     height: 300px;
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
     z-index: 2;
-    background-color: #000;
 }
 
 .flex-locations .full-width-image {
